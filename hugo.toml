@@ -1,4 +1,132 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Colton Robbins'
 theme = 'relearn-cv'
+
+[menu]
+[[menu.shortcuts]]
+    identifier = 'ds'
+    name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
+    url = 'https://github.com/coltonrobbins73/'
+    weight = 10
+
+[[menu.shortcuts]]
+    name = "<i class='fa-solid fa-layer-group'></i> Categories"
+    url = 'showcase/'
+    weight = 11
+
+[[menu.shortcuts]]
+    identifier = 'hugodoc'
+    name = "<i class='fas fa-fw fa-bookmark'></i> Hugo Documentation"
+    url = 'https://gohugo.io/'
+    weight = 20
+
+[[menu.shortcuts]]
+    name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
+    url = 'more/credits/'
+    weight = 30
+
+[[menu.shortcuts]]
+    name = "<i class='fas fa-fw fa-tags'></i> Tags"
+    url = 'tags/'
+    weight = 40
+
+[params]
+  additionalContentLanguage = ['en']
+  alwaysopen = ''
+  breadcrumbSeparator = '>'
+  collapsibleMenu = true
+  customMathJaxURL = ''
+  customMermaidURL = ''
+  customOpenapiURL = ''
+  description = 'Documentation for Hugo Relearn Theme'
+  disableAssetsBusting = false
+  disableBreadcrumb = false
+  disableExplicitIndexURLs = false
+  disableGeneratorVersion = false
+  disableHoverBlockCopyToClipBoard = false
+  disableInlineCopyToClipBoard = true
+  disableLandingPageButton = true
+  disableLanguageSwitchingButton = false
+  disableMathJax = true
+  disableMermaid = true
+  disableNextPrev = false
+  disableOpenapi = true
+  disableRandomIds = false
+  disableRootBreadcrumb = true
+  disableSearch = false
+  disableSearchHiddenPages = false
+  disableSeoHiddenPages = true
+  disableShortcutsTitle = false
+  disableTagHiddenPages = false
+  disableTermBreadcrumbs = false
+  disableToc = false
+  editURL = 'https://github.com/McShelby/hugo-theme-relearn/edit/main/exampleSite/content/${FilePath}'
+  externalLinkTarget = '_blank'
+  highlightWrap = true
+  images = ['images/hero.png']
+  mathJaxInitialize = '{}'
+  mermaidInitialize = '{ "securityLevel": "loose" }'
+  mermaidZoom = true
+  ordersectionsby = 'weight'
+  showVisitedLinks = true
+  themeVariantModifier = ''
+  titleSeparator = '::'
+
+  [params.author]
+    name = 'Colton Robbins'
+
+  [params.image]
+    errorlevel = 'warning'
+
+  [params.imageEffects]
+    border = true
+    lightbox = true
+    shadow = false
+
+  [params.link]
+    errorlevel = 'warning'
+
+  [params.social]
+    facebook_admin = ''
+    twitter = ''
+
+[[params.themeVariant]]
+    auto = []
+    identifier = 'relearn-auto'
+    name = 'Relearn Light/Dark'
+
+[[params.themeVariant]]
+    identifier = 'relearn-light'
+
+[[params.themeVariant]]
+    identifier = 'relearn-dark'
+
+[[params.themeVariant]]
+    identifier = 'relearn-bright'
+
+[[params.themeVariant]]
+    auto = ['zen-light', 'zen-dark']
+    identifier = 'zen-auto'
+    name = 'Zen Light/Dark'
+
+[[params.themeVariant]]
+    identifier = 'zen-light'
+
+[[params.themeVariant]]
+    identifier = 'zen-dark'
+
+[[params.themeVariant]]
+    identifier = 'neon'
+
+[[params.themeVariant]]
+    identifier = 'learn'
+
+[[params.themeVariant]]
+    identifier = 'blue'
+
+[[params.themeVariant]]
+    identifier = 'green'
+
+[[params.themeVariant]]
+    identifier = 'red'
