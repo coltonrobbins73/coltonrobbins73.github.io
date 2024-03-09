@@ -1,0 +1,6 @@
+[submodule "relearn-cv"]
+	path = relearn-cv
+	url = https://github.com/Codebase-sandbox/relearn-cv.git
+[submodule "themes/relearn-cv"]
+	path = themes/relearn-cv
+	url = https://github.com/Codebase-sandbox/relearn-cv.git
