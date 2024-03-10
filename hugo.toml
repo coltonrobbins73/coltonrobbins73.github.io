@@ -6,29 +6,29 @@ theme = 'relearn-cv'
 [menu]
 [[menu.shortcuts]]
     identifier = 'ds'
-    name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
+    name = "<i class='fab fa-fw fa-github'></i> GitHub"
     url = 'https://github.com/coltonrobbins73/'
-    weight = 10
-
-[[menu.shortcuts]]
-    name = "<i class='fa-solid fa-layer-group'></i> Categories"
-    url = 'showcase/'
     weight = 11
 
 [[menu.shortcuts]]
+    name = "<i class='fas fa-dna'></i> Bio-Recap portfolio"
+    url = 'https://bio-recap.github.io/directory/'
+    weight = 10
+
+[[menu.shortcuts]]
     identifier = 'hugodoc'
-    name = "<i class='fas fa-fw fa-bookmark'></i> Hugo Documentation"
-    url = 'https://gohugo.io/'
+    name = "<i class='fas fa-envelope'></i> Email"
+    url = 'mailto:coltonrobbins73@gmail.com'
     weight = 20
 
 [[menu.shortcuts]]
-    name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
-    url = 'more/credits/'
+    name = "<i class='fas fa-graduation-cap'></i> Publications & Education"
+    url = '/education/'
     weight = 30
 
 [[menu.shortcuts]]
-    name = "<i class='fas fa-file-lines'></i> CV"
-    url = 'tags/'
+    name = "<i class='fas fa-file-pdf'></i> CV"
+    url = 'https://coltonrobbins73.github.io/cv.pdf'
     weight = 40
 
 [params]
