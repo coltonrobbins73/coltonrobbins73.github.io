@@ -6,7 +6,7 @@ title = "Colton Robbins"
 
 &nbsp;
 
-![image](/coltonrobbins73.github.io/images/profile.jpg?width=30vw&classes=shadow)
+![image](/images/profile.jpg?width=30vw&classes=shadow)
 
 &nbsp;
 

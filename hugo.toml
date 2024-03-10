@@ -23,7 +23,7 @@ theme = 'relearn-cv'
 
 [[menu.shortcuts]]
     name = "<i class='fas fa-graduation-cap'></i> Publications & Education"
-    url = '/education/'
+    url = '/about/education/'
     weight = 30
 
 [[menu.shortcuts]]
